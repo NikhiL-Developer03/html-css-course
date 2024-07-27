@@ -1,0 +1,16 @@
+[Ctrl + D] = copy the current word your cursor is located at.
+
+1. Command Palette
+[Ctrl + Shift + P] = open the Command Palette
+
+2. Search Files
+[Ctrl + F] = to search in the current file a[Ctrl + Shift + F] = to search in all files.
+
+3. Multiple Cursors
+[Ctrl + Alt + Up/Down(keyboard button)] = To create multiple cursors
+
+4. Delete the Line
+[Ctrl + Shift + K] = go to the line you wish to delete.
+
+5. Copy Line Up/Down
+[Shift + Alt + Up/Down(keyboard button)] = Go to the line you want to copy 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge Exercises - 4[Chrome Dev Tools and Css-Box-Model]</title>
+  <style>
+    .Stretch-btn{
+      background-color: rgb(14, 231, 14);
+      border : none;
+      color: white;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-right: 15px;
+      padding-bottom: 8px;
+      padding-left: 15px;
+      transition: padding-top 1s,
+      padding-right 1s,
+      padding-bottom 1s,
+      padding-left 1s;
+    }
+    .Stretch-btn:hover{
+      cursor:pointer;
+      padding-top: 18px;
+      padding-right: 36px;
+      padding-bottom: 18px;
+      padding-left: 36px;
+    }
+    .shadow-btn{
+      background-color: rgb(14, 231, 14);
+      border : none;
+      color: white;
+      font-size: 18px;
+      padding-top: 8px;
+      padding-right: 16px;
+      padding-bottom: 8px;
+      padding-left: 16px;
+      cursor: pointer;
+      box-shadow: 5px 5px 7px rgba(0,0,0,0.5) ;
+    }
+    .shadow-btn:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+  }
+
+  .single-row-btn{
+    background: rgb(14, 231, 14);
+    color: white;
+    border:none;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: padding 0.15s,
+    margin 0.15s;
+  }
+  .single-row-btn:hover{
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Challenge Exercises - 4</h1>
+
+  <h3>Pagination</h3>
+  <button>Back</button>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <button>Next</button>
+  <h3>Stretch</h3>
+  <button class="Stretch-btn">Stretch</button>
+  <h3>3D Click</h3>
+  <button class="shadow-btn">Shadow</button>
+  <h3>Margin and Padding together</h3>
+  <button class="single-row-btn">One</button>
+  <button class="single-row-btn">Two</button>
+  <button class="single-row-btn">Three</button>
+</body>
+</html>
